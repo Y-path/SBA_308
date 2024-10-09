@@ -32,6 +32,8 @@ https://www.geeksforgeeks.org/
 
 Google
 
+Javascript Crash Course - book
+
 ## Project Status
 
 This is my best effort.  It is the result of about 20 hours of work.  I am missing some basic syntax in many places that makes much of the code unusable.   
