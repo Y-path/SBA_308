@@ -465,7 +465,7 @@ console.log(combinedData);
   
   
   const due = getDueAndPastDue(AssignmentGroup, LearnerSubmissions);
-  console.log(due); // Output: [ { name: 'Subtask 1', ... }, { name: 'Subtask 3', ... } ]
+  console.log(due); 
 
 
   function getDueAndPastDue(AssignmentGroup, LearnerSubmissions) {
@@ -480,7 +480,7 @@ console.log(combinedData);
           if (submitted_at > due_at) {
             result2.push(assignments);
           }
-          break; // Move to the next task once a match is found
+          break; cd -
         }
       }
     }
@@ -562,7 +562,7 @@ console.log(combinedData);
   
         if (dueDate >= submittedDate) {
           dueAssignments.push(submission);
-          break; // Move to the next assignment once a matching submission is found
+          break; 
         }
       }
     }
